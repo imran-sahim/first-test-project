@@ -13,3 +13,9 @@ body {
 header {
     background-color: #aee;
 }
+p {
+    padding: 10px;
+    color: purple;
+    text-align: left;
+    font-size: 20px;
+}
