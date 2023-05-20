@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header {
+            background-color: #666;
+            font-size: 35px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        nav {  
+            background: #ccc;
+            float: left;
+            height: 300px;
+            padding: 20px;
+            width: 30%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+        article {
+            float: left;
+            width: 70%;
+            background-color: #f1f1f1;;
+            height: 300px;
+            padding: 20px;
+        }
+        section::after {
+            content: "";
+             display: table;
+             clear: both;
+}
+        footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <header>Web Page</header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Lorem</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil architecto blanditiis ab similique reprehenderit exercitationem et iure sequi soluta delectus?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi optio incidunt consequatur culpa at rerum commodi blanditiis soluta in assumenda.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    
+</body>
+</html>
