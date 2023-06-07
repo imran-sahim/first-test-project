@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,11 @@
         * {
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Courier New', Courier, monospace;
         }
+
         header {
             background-color: #666;
             font-size: 35px;
@@ -19,37 +22,53 @@
             text-align: center;
             color: white;
         }
-        nav {  
+
+        nav {
             background: #ccc;
             float: left;
             height: 300px;
             padding: 20px;
             width: 30%;
         }
+
         nav ul {
             list-style-type: none;
             padding: 0px;
         }
+
         article {
             float: left;
             width: 70%;
-            background-color: #f1f1f1;;
+            background-color: #f1f1f1;
+            ;
             height: 300px;
             padding: 20px;
         }
+
         section::after {
             content: "";
-             display: table;
-             clear: both;
-}
+            display: table;
+            clear: both;
+        }
+
         footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width:600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </head>
+
 <body>
     <header>Web Page</header>
     <section>
@@ -62,13 +81,16 @@
         </nav>
         <article>
             <h1>Lorem</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil architecto blanditiis ab similique reprehenderit exercitationem et iure sequi soluta delectus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi optio incidunt consequatur culpa at rerum commodi blanditiis soluta in assumenda.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil architecto blanditiis ab similique
+                reprehenderit exercitationem et iure sequi soluta delectus?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi optio incidunt consequatur culpa at rerum
+                commodi blanditiis soluta in assumenda.</p>
         </article>
     </section>
     <footer>
         <p>Footer</p>
     </footer>
-    
+
 </body>
+
 </html>
