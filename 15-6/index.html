@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" size="4" maxlength="6"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="#">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="file" id="file" name="file" multiple><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="#">
+        <label for="fname">Country Code:</label><br>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"
+            title="Three Country Code"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="#">
+        <input type="text" id="country_code" name="country_code" title="Three Country Code " pattern="[A-Za-z]{4}">
+    </form>
+    <form action="#">
+        <input type="text" id="phone" name="phone" title="Mobile Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"
+            placeholder="8956808085"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="#">
+        <input type="text" id="country" name="country" placeholder="India">
+    </form>
+
+
+    <form action="#" id="form1">
+        <label for="fname">First Name:</label><br><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="submit">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima distinctio recusandae itaque a eum laudantium vitae eligendi perferendis fugit magni.
+        </p>
+        <label for="lname">Last name;</label><br><br>
+        <input type="text" id="lname" name="lname" form="form1">
+    </form>
+</body>
+
+</html>
