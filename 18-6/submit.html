@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Autoform</title>
+    <title>Submit formtarget</title>
 </head>
 <body>
     <form action="#">
@@ -12,6 +12,12 @@
         <input type="submit" value="submit">
         <input type="submit" formtarget="_blank" value="Submit to a new window tab">
  </form>
+ <form action="#">
+    <label for="stext">Enter Your Email:</label><br>
+    <input type="email" id="eymail" name="eymail"><br><br>
+    <input type="submit" value="submit">
+    <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+</form>
     
 </body>
 </html>
