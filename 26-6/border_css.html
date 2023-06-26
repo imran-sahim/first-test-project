@@ -1,24 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Border css</title>
     <style>
-        .dotted {border-style: dotted;}
-        .dashed {border-style: dashed;}
-        .solid {border-style: solid;}
-        .double {border-style: double;}
-        .groove {border-style: groove;}
-        .ridge {border-style: ridge;}
-        .inset {border-style: inset;}
-        .outset {border-style: outset;}
-        .none {border-style: none;}
-        .hidden {border-style: hidden;}
-        .mixed {border-style: dotted dashed solid double;}
+        .dotted {
+            border-style: dotted;
+        }
 
+        .dashed {
+            border-style: dashed;
+        }
+
+        .solid {
+            border-style: solid;
+        }
+
+        .double {
+            border-style: double;
+        }
+
+        .groove {
+            border-style: groove;
+        }
+
+        .ridge {
+            border-style: ridge;
+        }
+
+        .inset {
+            border-style: inset;
+        }
+
+        .outset {
+            border-style: outset;
+        }
+
+        .none {
+            border-style: none;
+        }
+
+        .hidden {
+            border-style: hidden;
+        }
+
+        .mixed {
+            border-style: dotted dashed solid double;
+        }
+
+        .a {
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        .b {
+            border-style: groove;
+            border-width: 5px;
+        }
+
+        .c {
+            border-style: dashed;
+            border-width: thick;
+        }
+
+        .d {
+            border-style: double;
+            border-width: thin;
+        }
+
+        .e {
+            border-style: ridge;
+            border-width: 25px;
+        }
+        p.one {
+            border-style: solid;
+            border-width: 20px 5px;
+        }
+        p.two {
+            border-style: solid;
+            border-width: 20px 5px 10px 30px;
+        }
+        p.three {
+            border-style: double;
+            border-width: 10px 20px 30px 40px;
+        }
+        p.five {
+            border-style: solid;
+            border-color: red;
+        }
+        p.six {
+            border-style: solid;
+            border-color: black;
+        }
+        p.seven {
+            border-style: solid;
+            border-color: green;
+        }
+        p.eight {
+            border-style: solid;
+            border-color: aqua red black blue;
+        }
+        p.nine {
+            border-style: dashed;
+            border-color: #ff0000;
+        }
     </style>
 </head>
+
 <body>
     <p class="dotted">A dotted border.</p>
     <p class="dashed">A dashed border.</p>
@@ -31,5 +121,24 @@
     <p class="none">No border.</p>
     <p class="hidden">A hidden border.</p>
     <p class="mixed">A mixed border.</p>
+    <br><br><br>
+
+    <p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloribus.</p>
+    <p class="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloribus.</p>
+    <p class="c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloribus.</p>
+    <p class="d">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloribus.</p>
+    <p class="e">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloribus.</p>
+    <br><br><br>
+    <p class="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, id.</p>
+    <p class="two">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, id.</p>
+    <p class="three">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, id.</p>
+    <br><br><br>
+    <p class="five">This border is red</p>
+    <p class="six">This border is black </p>
+    <p class="seven">This border is green</p>
+    <br><br><br>
+    <p class="eight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="nine">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </body>
+
 </html>
