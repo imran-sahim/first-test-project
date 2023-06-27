@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin</title>
+    <style>
+        .x {
+            border: 2px solid blue;
+            background-color: lightblue;
+            margin-top: 100px;
+            margin-right: 150px;
+            margin-bottom: 100px;
+            margin-left: 80px;
+        }
+
+        /* shorthand properties */
+        .one {
+            margin: 100px 150px 100px 80px;
+        }
+
+        .two {
+            background-color: brown;
+            margin: 25px 50px 75px;
+            border: 1px solid black;
+        }
+
+        p {
+            margin: 25px 50px;
+            background-color: lightblue;
+        }
+
+        h2 {
+            margin: 25px;
+            background-color: lightblue;
+            border: 1px solid red;
+        }
+
+        .three {
+            width: 300px;
+            background-color: lightblue;
+            border: 1px solid green;
+            margin: auto;
+        }
+
+        .con {
+            border: 1px solid black;
+            margin-left: 100px;
+        }
+
+        .u {
+            margin-left: inherit;
+        }
+        h3 {
+            margin: 0 0 50px 0;
+        }
+        h4 {
+            margin: 20px 0 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Using individual margin properties</h1>
+    <div class="x">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a
+        left margin of 80px.
+    </div>
+    <div class="one">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and
+        a left margin of 80px.
+    </div>
+    <div class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas vel dolores. Sed porro
+        tenetur enim dolores nisi nobis quas.</div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, neque!</p>
+    <h2>This is heading 2</h2>
+    <div class="three"> This div will be horizontally centered because it has margin: auto; </div>
+    <div class="con">
+        <p class="u">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ducimus quibusdam ipsa error
+            dolorem totam placeat nam mollitia iure accusamus!</p>
+    </div>
+    <h3>This is some heading</h3>
+    <h4>This is some heading</h4>
+</body>
+
+</html>
