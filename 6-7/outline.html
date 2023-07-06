@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline style</title>
+    <style>
+        /* body { 
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://img.freepik.com/free-photo/beautiful-low-angle-shot-forest-blue-starry-night-sky_181624-9304.jpg?t=st=1688569824~exp=1688570424~hmac=20a66a6c41c24ff510c796017069f8e9e93fe7199c144a6a9291817999554829);
+        }*/
+
+        p.dotted {
+            outline-style: dotted;
+        }
+
+        p.deshed {
+            outline-style: dashed;
+        }
+
+        p.solid {
+            outline-style: solid;
+        }
+
+        p.groove {
+            outline-style: groove;
+        }
+
+        p.double {
+            outline-style: double;
+        }
+
+        p.ridge {
+            outline-style: ridge;
+        }
+
+        p.inset {
+            outline-style: inset;
+        }
+
+        p.outset {
+            outline-style: outset;
+        }
+
+        .ex1 {
+            border: 1px solid white;
+            outline-style: solid;
+            outline-width: thin;
+            outline-color: red;
+        }
+
+        .ex2 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-width: medium;
+            outline-color: aqua;
+        }
+
+        .ex3 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-width: thick;
+            outline-color: blueviolet;
+        }
+
+        .ex4 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-width: 4px;
+            outline-color: red;
+        }
+
+        .exp1 {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: red;
+        }
+
+        .exp2 {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: red;
+        }
+
+        .exp3 {
+            border: 2px solid black;
+            outline-style: outset;
+            outline-color: grey;
+        }
+        .expl1 {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: #ff0000;
+            /* color: white; */
+        }
+        .expl2 {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: #0000ff;
+            /* color: white; */
+        }
+        .expl3 {
+            border: 2PX solid black;
+            outline-style: solid;
+            outline-color: #bbbbbb;
+            /* color: white; */
+        }
+        .one {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: rgb(0, 0, 255);
+        }
+        .two {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: rgb(187, 187, 187);
+        } 
+        .three {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: rgb(255, 0, 0);
+        }
+        .hsl1 {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: hsl(0, 100%, 50%);
+        }
+        .hsl2 {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: hsl(240, 100%, 50%);
+        }
+        .hsl3 {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: hsl(0, 0%, 73%);
+        }
+        .a {
+            outline: dashed;
+        }
+        .b {
+            outline: dotted red;
+        } 
+        .c {
+            outline: 5px solid yellow;
+        }
+        .d {
+            outline: thick ridge pink;
+        }
+        .e {
+            margin: 30px;
+            background: yellow;
+            border: 2px solid black;
+            outline: 1px solid red;
+            outline-offset: 15px;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <p class="dotted">This is paragrph</p>
+    <p class="deshed">This is paragrph</p>
+    <p class="solid">This is paragrph</p>
+    <p class="groove">This is paragrph</p>
+    <p class="double">This is paragrph</p>
+    <p class="ridge">This is paragrph</p>
+    <p class="inset">This is paragrph</p>
+    <p class="outset">This is paragrph</p>
+    <br><br><br>
+
+
+    <P class="ex1">A thin outline.</P>
+    <P class="ex2">A medium outline.</P>
+    <P class="ex3">A thick outline.</P>
+    <P class="ex4">A 4px thick outline.</P>
+    <br><br><br>
+
+    <P class="exp1">A solid red outline.</P>
+    <P class="exp2">A dotted blue outline.</P>
+    <P class="exp3">An outset grey outline.</P>
+    <br><br><br>
+
+
+    <h2>Hexadecimal Outline Colors </h2>
+    <p class="expl1">A solid red outline.</p>
+    <p class="expl2">A dotted blue outline.</p>
+    <p class="expl3">A solid grey outline.</p>
+    <br><br><br>
+    
+    <h2>Rgb Outline Color</h2>
+    <p class="one">A solid red outline.</p>
+    <p class="two">A dotted blue outline.</p>
+    <p class="three">A solid grey outline.</p>
+    <br><br><br>
+
+    <h2>hsl outline colors</h2>
+    <p class="hsl1">A solid red outline.</p>
+    <p class="hsl2">A dotted blue outline.</p>
+    <p class="hsl3">A solid grey outline.</p>
+    <br><br><br>
+
+    <h2>Shorthand Outline property</h2>
+    <p class="a">This is some text for shorthand  property</p>
+    <p class="b">This is some text for shorthand  property</p>
+    <p class="c">This is some text for shorthand  property</p>
+    <p class="d">This is some text for shorthand  property</p>
+    <br><br><br>
+
+    <h2>Outline-offset property</h2>
+    <p class="e">This paragraph has an outline 15px outside the border edge.</p>
+
+</body>
+
+</html>
