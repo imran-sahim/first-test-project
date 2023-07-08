@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration</title>
+    <style>
+        /* h1 { */
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-color: brown;
+        /* } */
+
+        h2 {
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: purple;
+        }
+
+        h3 {
+            text-decoration-line: overline;
+            text-decoration-style: dashed;
+            text-decoration-color: aqua;
+        }
+
+        .one {
+            text-decoration-line: underline;
+            text-decoration-thickness: 10px;
+            text-decoration-color: aqua;
+        }
+
+        /* shorthand property for text-decoration */
+        .tow {
+            text-decoration: underline red 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .lowercase {
+            text-transform: lowercase;
+            line-height: 1px;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+            text-indent: 50px;
+            letter-spacing: 2px;
+        }
+
+        .ummu {
+            /* letter-spacing: 5px; */
+            line-height: 1.8;
+            word-spacing: 10px;
+            /* text-transform: capitalize; */
+            /* white-space: nowrap; */
+        }
+
+        .ais {
+            text-shadow: 0 0 3px blue, 0 0 3px red;
+            /* color: red; */
+        }
+
+        .mai {
+            color: white;
+            text-transform: capitalize;
+            text-shadow: 1px 1px 3px blue, 1px 1px 5px red, 1px 1px 25px darkblue;
+            /* font-family: Arial, Helvetica, sans-serif; */
+        }
+    </style>
+</head>
+
+<body>
+</body>
+<h1>This is heading</h1>
+<h2>This is heading two</h2>
+<h3>This is heading three</h3>
+<br><br><br><br>
+
+<h1 class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eveniet!</h1>
+<h1 class="tow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eveniet!</h1>
+<a href="#">This is a </a>
+<br><br><br>
+
+<p class="uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, hic!</p>
+<p class="lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, hic!</p>
+<p class="capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, hic!Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Quis, hic!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, hic!Lorem
+    ipsum dolor sit amet consectetur adipisicing elit. Quis, hic!</p>
+<p class="ummu"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas exercitationem, atque illo cum
+    officiis quaerat dignissimos cupiditate inventore eligendi voluptatem, maxime dicta aliquid quis quas quam enim
+    aperiam sunt asperiores ipsam beatae incidunt! Numquam dicta quasi modi provident et similique, iusto exercitationem
+    vero reiciendis! Unde enim recusandae doloremque eligendi quos.
+</p>
+<h1 class="ais">This is shadow text</h1>
+<h1 class="mai">text shadow effect</h1>
+
+</html>
